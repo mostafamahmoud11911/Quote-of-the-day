@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.item{
+text-align: center;
+margin-top: 4rem;
+}
+.item h1{
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.item p{
+    font-size: 35px;
+    margin-top: 2.5rem;
+}
+
+.item button{
+    display: inline-block;
+    padding: 30px 80px;
+    color: #fff;
+    background-color: blue;
+    margin-top: 1.5rem;
+    border: 0;
+    transition: background-color .3s;
+}
+.item button:hover{
+    background-color: rgba(0, 0, 255, 0.7);
+}
+.item .text{
+    width: 50%;
+    margin: 3rem auto 0 ;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 1.8;
+}
